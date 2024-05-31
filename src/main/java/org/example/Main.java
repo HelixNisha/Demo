@@ -26,3 +26,9 @@ class Car extends  Vehicle{
         System.out.println("Honk");
     }
 }
+
+class Bike extends  Vehicle{
+    void ride(){
+        System.out.println("Bike ride");
+    }
+}
